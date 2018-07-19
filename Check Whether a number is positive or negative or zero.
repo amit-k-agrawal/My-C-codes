@@ -1,8 +1,7 @@
 #include<stdio.h>
-Void main()
+int main()
 {
   int a;
-  printf("Enter The Integer Number.");
   scanf("%d",&a);
   if(a>0)
   printf("Positive");
@@ -10,4 +9,5 @@ Void main()
   printf("Zero");
   else
   printf("Negative");
+  return 0;
 }
